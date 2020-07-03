@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_lotMachin_</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1.png" />
+    <None Remove="10.png" />
+    <None Remove="11.png" />
+    <None Remove="12.png" />
+    <None Remove="2.png" />
+    <None Remove="3.png" />
+    <None Remove="4.png" />
+    <None Remove="5.png" />
+    <None Remove="6.png" />
+    <None Remove="7.png" />
+    <None Remove="8.png" />
+    <None Remove="9.png" />
+    <None Remove="background1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="10.png" />
+    <Resource Include="11.png" />
+    <Resource Include="12.png" />
+    <Resource Include="7.png" />
+    <Resource Include="8.png" />
+    <Resource Include="9.png" />
+    <Resource Include="background1.jpg" />
+  </ItemGroup>
+
+</Project>
